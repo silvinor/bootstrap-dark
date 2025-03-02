@@ -26,14 +26,14 @@
     "watch": "npm-run-all --parallel watch-*",
     "watch-scss": "nodemon --watch scss/ --ext scss --exec \"npm-run-all css-compile css-prefix css-minify\""
   },
-  "author": "Vino Rodrigues",
+  "author": "Silvino Rodrigues",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vinorodrigues/bootstrap-dark.git"
+    "url": "git+https://github.com/silvinor/bootstrap-dark.git"
   },
   "bugs": {
-    "url": "https://github.com/vinorodrigues/bootstrap-dark/issues"
+    "url": "https://github.com/silvinor/bootstrap-dark/issues"
   },
   "style": "dist/bootstrap-dark.css",
   "sass": "scss/bootstrap-dark.scss",

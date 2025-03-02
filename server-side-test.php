@@ -27,7 +27,7 @@ if ($color_scheme === false) $color_scheme = 'light';
   <p>You are in <?= $color_scheme ?> mode.</p>
 
   <p><small>js.cookie &copy; Klaus Hartl, Fagner Brack, GitHub Contributors |
-    Made with <span style="font-size:80%">&#10084;&#65039;</span> by Vino Rodrigues | &copy; 2020</small></p>
+    Made with <span style="font-size:80%">&#10084;&#65039;</span> by Silvino Rodrigues | &copy; 2020</small></p>
 
   <!-- Needs js.cookie -->
   <script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script>

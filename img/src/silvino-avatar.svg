@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<title>Vino Rodrigues</title>
+	<title>Silvino Rodrigues</title>
 	<defs>
 		<filter x="-2.9%" y="-2.7%" width="105.8%" height="105.3%" filterUnits="objectBoundingBox" id="shadow">
 			<feOffset dx="4" dy="4" in="SourceAlpha" result="soo"></feOffset>

@@ -2,7 +2,7 @@
 A proof of concept / Long-form ~~white paper~~ [dark paper]
 
 > This body of work pertains to [Bootstrap 4](https://getbootstrap.com/docs/4.5/).
-> If you're after the same work for [Bootstrap 5](https://getbootstrap.com/docs/5.0/) please visit the [vinorodrigues/bootstrap-dark-5](https://github.com/vinorodrigues/bootstrap-dark-5) repo.
+> If you're after the same work for [Bootstrap 5](https://getbootstrap.com/docs/5.0/) please visit the [silvinor/bootstrap-dark-5](https://github.com/silvinor/bootstrap-dark-5) repo.
 
 Jump to:
 
@@ -436,13 +436,13 @@ Internally the CSS is composed by the same techniques as [Method 4](#method-4), 
 ## Where's the proof?
 
 
-On the Github Pages page: [https://vinorodrigues.github.io/bootstrap-dark/](https://vinorodrigues.github.io/bootstrap-dark/)
+On the Github Pages page: [https://silvinor.github.io/bootstrap-dark/](https://silvinor.github.io/bootstrap-dark/)
 
-* Test __Method 1__: [`Bootstrap-Night`](https://vinorodrigues.github.io/bootstrap-dark/test-night.html).
-* Test __Method 2__: [`Bootstrap-Nightfall`](https://vinorodrigues.github.io/bootstrap-dark/test-nightfall.html).
-* Test __Method 3__: [`Bootstrap-Nightshade`](https://vinorodrigues.github.io/bootstrap-dark/test-nightshade.html).
-* Test __Method 4__: [`Bootstrap-Dark`](https://vinorodrigues.github.io/bootstrap-dark/test-dark.html).
-* ... and also Method 4b: [`Bootstrap-Unlit`](https://vinorodrigues.github.io/bootstrap-dark/test-unlit.html).
+* Test __Method 1__: [`Bootstrap-Night`](https://silvinor.github.io/bootstrap-dark/test-night.html).
+* Test __Method 2__: [`Bootstrap-Nightfall`](https://silvinor.github.io/bootstrap-dark/test-nightfall.html).
+* Test __Method 3__: [`Bootstrap-Nightshade`](https://silvinor.github.io/bootstrap-dark/test-nightshade.html).
+* Test __Method 4__: [`Bootstrap-Dark`](https://silvinor.github.io/bootstrap-dark/test-dark.html).
+* ... and also Method 4b: [`Bootstrap-Unlit`](https://silvinor.github.io/bootstrap-dark/test-unlit.html).
 * Test the image recommendations in the [Images section](#images) below.
 
 
@@ -478,7 +478,7 @@ Nevertheless, a PoC will need an outcome:
 
 If you're a theme builder or want to use its principles in your own project you'll need to have [Git][41] and [Node][42] installed.
 
-1. Fork or download the repository: `git clone https://github.com/vinorodrigues/bootstrap-dark.git`
+1. Fork or download the repository: `git clone https://github.com/silvinor/bootstrap-dark.git`
 2. Install Node dependencies: `npm install`
 3. Modify `_variables.scss ` and `_variables-alt.scss` in the `scss` sub-folder.
 4. Run `npm run build` to build your theme. *(This uses [NPM Scripts][43] to build the `css` files. You may need to install some of the dependencies as "global".)*
@@ -487,17 +487,17 @@ If you're a theme builder or want to use its principles in your own project you'
 
 ### CDN
 
-[![](https://data.jsdelivr.com/v1/package/gh/vinorodrigues/bootstrap-dark/badge?style=rounded)](https://www.jsdelivr.com/package/gh/vinorodrigues/bootstrap-dark)
+[![](https://data.jsdelivr.com/v1/package/gh/silvinor/bootstrap-dark/badge?style=rounded)](https://www.jsdelivr.com/package/gh/silvinor/bootstrap-dark)
 
 You can also hotlink the theme via CDN with [jsdelivr.com][39].
 
 You can access the theme CSS file from the GitHub release:
 
-* [`https://cdn.jsdelivr.net/gh/vinorodrigues/bootstrap-dark@0.6.1/dist/bootstrap-dark.min.css`](https://cdn.jsdelivr.net/gh/vinorodrigues/bootstrap-dark@0.6.1/dist/bootstrap-dark.min.css)
-* [`https://cdn.jsdelivr.net/gh/vinorodrigues/bootstrap-dark@0.6.1/dist/bootstrap-dark.css`](https://cdn.jsdelivr.net/gh/vinorodrigues/bootstrap-dark@0.6.1/dist/bootstrap-dark.css)
-* [`https://cdn.jsdelivr.net/gh/vinorodrigues/bootstrap-dark@0.6.1/dist/bootstrap-night.min.css`](https://cdn.jsdelivr.net/gh/vinorodrigues/bootstrap-dark@0.6.1/dist/bootstrap-night.min.css)
-* [`https://cdn.jsdelivr.net/gh/vinorodrigues/bootstrap-dark@0.6.1/dist/bootstrap-night.css`](https://cdn.jsdelivr.net/gh/vinorodrigues/bootstrap-dark@0.6.1/dist/bootstrap-night.css)
-* ... and all [the others](https://cdn.jsdelivr.net/gh/vinorodrigues/bootstrap-dark/dist/), but I don't recommend them.
+* [`https://cdn.jsdelivr.net/gh/silvinor/bootstrap-dark@0.6.1/dist/bootstrap-dark.min.css`](https://cdn.jsdelivr.net/gh/silvinor/bootstrap-dark@0.6.1/dist/bootstrap-dark.min.css)
+* [`https://cdn.jsdelivr.net/gh/silvinor/bootstrap-dark@0.6.1/dist/bootstrap-dark.css`](https://cdn.jsdelivr.net/gh/silvinor/bootstrap-dark@0.6.1/dist/bootstrap-dark.css)
+* [`https://cdn.jsdelivr.net/gh/silvinor/bootstrap-dark@0.6.1/dist/bootstrap-night.min.css`](https://cdn.jsdelivr.net/gh/silvinor/bootstrap-dark@0.6.1/dist/bootstrap-night.min.css)
+* [`https://cdn.jsdelivr.net/gh/silvinor/bootstrap-dark@0.6.1/dist/bootstrap-night.css`](https://cdn.jsdelivr.net/gh/silvinor/bootstrap-dark@0.6.1/dist/bootstrap-night.css)
+* ... and all [the others](https://cdn.jsdelivr.net/gh/silvinor/bootstrap-dark/dist/), but I don't recommend them.
 
 
 ### NPM
@@ -727,15 +727,15 @@ The key to changing mindset is knowledge - the more we understand the concepts t
 
 [1]: https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences#Verbal-linguistic
 [2]: https://www.w3.org/TR/mediaqueries-5/#prefers-color-scheme
-[3]: https://github.com/vinorodrigues/wp-bootstrap4
-[4]: https://github.com/vinorodrigues/wp-bootstrap2
-[5]: https://github.com/vinorodrigues/print-ready
+[3]: https://github.com/silvinor/wp-bootstrap4
+[4]: https://github.com/silvinor/wp-bootstrap2
+[5]: https://github.com/silvinor/print-ready
 [6]: https://trac.webkit.org/changeset/237156/webkit
 [7]: https://github.com/twbs/bootstrap/issues/27514
 [8]: https://bootswatch.com
 [9]: https://github.com/thomaspark/bootswatch/
 [10]: https://github.com/justinmahar/foundswatch
-[11]: https://github.com/vinorodrigues/foundswatch
+[11]: https://github.com/silvinor/foundswatch
 [12]: https://bootswatch.com/flatly/
 [13]: https://bootswatch.com/darkly/
 [14]: https://web.dev/prefers-color-scheme/
@@ -761,15 +761,15 @@ The key to changing mindset is knowledge - the more we understand the concepts t
 [33]: https://www.amazon.com/Bullshit-Harry-G-Frankfurt-ebook/dp/B001EQ4OJW
 [34]: https://twitter.com/mdo
 [35]: https://stackoverflow.com/users/1575941/vino
-[36]: https://vinorodrigues.github.io/bootstrap-dark/test-nightshade.html
+[36]: https://silvinor.github.io/bootstrap-dark/test-nightshade.html
 [37]: https://markdotto.com/2018/11/05/css-dark-mode/
 [38]: https://en.wikipedia.org/wiki/Information_overload
 [39]: https://www.jsdelivr.com
-[40]: https://github.com/vinorodrigues/bootstrap-dark/blob/master/LICENSE.md
+[40]: https://github.com/silvinor/bootstrap-dark/blob/master/LICENSE.md
 [41]: https://help.github.com/articles/set-up-git
 [42]: https://nodejs.org/
 [43]: https://docs.npmjs.com/cli/v6/commands/npm-run-script
-[44]: https://github.com/vinorodrigues/bootstrap-dark/issues
+[44]: https://github.com/silvinor/bootstrap-dark/issues
 [45]: https://sivers.org/hellyeah
 [46]: https://en.wikipedia.org/wiki/Media_queries
 [47]: https://en.wikipedia.org/wiki/Responsive_web_design
@@ -799,12 +799,12 @@ The key to changing mindset is knowledge - the more we understand the concepts t
 [71]: https://alearningaday.blog/2020/08/04/useful-feedback/
 
 
-[90]: https://github.com/vinorodrigues/bootstrap-dark
-[91]: https://github.com/vinorodrigues/bootstrap-dark/blob/master/scss/bootstrap-night.scss
-[92]: https://github.com/vinorodrigues/bootstrap-dark/blob/master/scss/bootstrap-nightfall.scss
-[93]: https://github.com/vinorodrigues/bootstrap-dark/blob/master/scss/bootstrap-nightshade.scss
-[94]: https://github.com/vinorodrigues/bootstrap-dark/blob/master/scss/bootstrap-dark.scss
-[95]: https://github.com/vinorodrigues/bootstrap-dark/blob/master/scss/bootstrap-unlit.scss
+[90]: https://github.com/silvinor/bootstrap-dark
+[91]: https://github.com/silvinor/bootstrap-dark/blob/master/scss/bootstrap-night.scss
+[92]: https://github.com/silvinor/bootstrap-dark/blob/master/scss/bootstrap-nightfall.scss
+[93]: https://github.com/silvinor/bootstrap-dark/blob/master/scss/bootstrap-nightshade.scss
+[94]: https://github.com/silvinor/bootstrap-dark/blob/master/scss/bootstrap-dark.scss
+[95]: https://github.com/silvinor/bootstrap-dark/blob/master/scss/bootstrap-unlit.scss
 
 [100]: https://github.com/mdo
 [101]: https://github.com/thomaspark
